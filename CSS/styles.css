@@ -109,7 +109,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    padding-top: 50px;
+    padding-top: 25px;
     font-family: 'Dancing Script', cursive;
     font-size: 70px;
     padding-bottom: 50px;
@@ -224,7 +224,7 @@ input[type=radio] {
 
 .btn {
   margin-top: 20%;
-  width: 350px;
+  width: 250px;
   height: 200px;
   border-color: black;
   border-width: 5px;
@@ -270,6 +270,7 @@ input[type=radio] {
 @media  screen and (max-width:768px) {
     /* default iPad screens */
     h1, h2, h3, h4, h5, h6 {
+        padding-top: 15px;
         font-size: 45px;
         padding-bottom: 25px;
     }
@@ -277,9 +278,14 @@ input[type=radio] {
         font-size: 25px;
     }
 
-    .checkbox {
+    .radio {
       font-size: 15px !important;
       margin-bottom: 15px;
+    }
+
+    .checkbox {
+      font-size: 15px !important;
+      margin-bottom: 20px;
     }
 
     .header {
@@ -293,6 +299,7 @@ input[type=radio] {
 @media  screen and (max-width:480px) {
     /* styles for mobile browsers smaller than 480px; (iPhone) */
     h1, h2, h3, h4, h5, h6 {
+        padding-top: 15px;
         font-size: 25px;
         padding-bottom: 15px;
     }
@@ -302,7 +309,12 @@ input[type=radio] {
 
     .checkbox {
       font-size: 12px !important;
-      margin-bottom: 10px;
+      margin-bottom: 20px;
+    }
+
+    .radio {
+      font-size: 15px !important;
+      margin-bottom: 15px;
     }
 
     .header {

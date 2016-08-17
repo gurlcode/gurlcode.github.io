@@ -11,10 +11,12 @@
     <!-- Bootstrap -->
     <link href="CSS/bootstrap.min.css" rel="stylesheet">
     <link href="CSS/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/pills-gh-pages/dist/pills.min.css">
     <link href="CSS/Hover/css/hover-min.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Dancing+Script&effect=anaglyph' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="CSS/font-awesome-4.6.3/css/font-awesome.min.css">
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -28,29 +30,29 @@
     <div id="fullpage">
 
         <div class="section" id = "intro">
-                <h1 id="challengeTitle" class="col-lg-offset-3 col-lg-5 col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-7 col-xs-offset-2 col-xs-7 text-center font-effect-3"><img src = "logonew.png"/></h1>
+                <h1 id="challengeTitle" class="four columns offset by-four"><img src = "logonew.png"/></h1>
 
-                <div class="col-lg-offset-3 col-lg-5 col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-7 col-xs-offset-2 col-xs-7 text-center row intro">Welcome! Scroll to get your female tech superstar and become one yourself xD.
+                <div class="six columns text-center row intro">Welcome! Scroll to get your female tech superstar and become one yourself xD.
                 </div>
 
         </div>
 
-        <div class="section" id = "levl">
+        <div class="section" id = "level">
                 <div class="container-fluid level">
-                    <div class="title col-lg-offset-3 col-lg-5 col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-7 col-xs-offset-2 col-xs-7 text-center">
+                    <div class="title nine columns offset by-one text-center">
                         <h2 id="prompt1" class="text-center">I am a...</h2>
                     </div>
                     <div class = "radio-toolbar">
                         <div id="level" class="row">
-                            <div id="middleSchool" class="col-lg-offset-3 col-lg-5 col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-7 col-xs-offset-2 col-xs-7 text-center radio hvr-radial-out onechoice">
+                            <div id="middleSchool" class="five columns offset by-three text-center radio hvr-radial-out onechoice">
                                     <input id="chooseMS" name="radios" type="radio"><label for="chooseMS"><i class="fa fa-pencil fa-3x"></i>Middle School Student
                                     </label>
                             </div>
-                            <div id="highSchool" class="col-lg-offset-3 col-lg-5 col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-7 col-xs-offset-2 col-xs-7 text-center radio hvr-radial-out">
+                            <div id="highSchool" class="five columns offset by-three radio hvr-radial-out">
                                     <input id="chooseHS" name="radios" type="radio"><label for="chooseHS"><i class="fa fa-graduation-cap fa-3x"></i>High School Student
                                     </label>
                             </div>
-                            <div id="college" class="col-lg-offset-3 col-lg-5 col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-7 col-xs-offset-2 col-xs-7 text-center radio hvr-radial-out">
+                            <div id="college" class="five columns offset by-three text-center radio hvr-radial-out">
                                     <input id="chooseCollege" name="radios" type="radio"><label for = "chooseCollege"><i class="fa fa-university fa-3x"></i></i></i></i>College Student
                                 </label>
                             </div>
@@ -66,15 +68,15 @@
                 <div class="container-fluid likes">
 
                     <div class="title">
-                        <h3 id="prompt2" class="col-lg-offset-1 col-lg-9 col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-7 col-xs-offset-1 col-xs-9 text-center">I am...</h2>
+                        <h3 id="prompt2" class="nine columns offset by-one text-center">I am...</h2>
             </div>
 
             <div id="selectInterest" class="row checkbox-toolbar">
-              <div id = "art" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center checkbox hvr-rectangle-in">
+              <div id = "art" class="col-xs-4 col-sm-4 col-md-4 col-lg-4  text-center checkbox hvr-rectangle-in">
                   <input type="checkbox" id = "chooseArt" value = "chooseArt">
                   <label for = "chooseArt"><i class="fa fa-paint-brush fa-5x"></i>Artsy</label>
               </div>
-                  <div id = "science" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center checkbox hvr-rectangle-in ">
+                  <div id = "science" class="col-xs-4 col-sm-4 col-md-4 col-lg-4  text-center checkbox hvr-rectangle-in ">
                       <input type="checkbox" id = "chooseScience" value = "chooseScience">
                       <label for = "chooseScience"><i class="fa fa-flask fa-5x"></i>Scientific</label>
                   </div>
@@ -116,26 +118,6 @@
 
         </div>
 
-        <!-- <div class = "section" id = "desires">
-          <div class = "container-fluid desires">
-
-           <div class="row">
-              <h2 class="col-lg-offset-3 col-lg-5 col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-7 col-xs-offset-2 col-xs-7 text-center">I want to...</h2>
-          </div>
-
-          <div class="row radio-toolbar2">
-              <div class="col-lg-offset-3 col-lg-5 col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-7 col-xs-offset-2 col-xs-7 text-center radio hvr-radial-out-2">
-                <input type="radio" id = "startCompany" name = "radios"><label for = "startCompany">Learn about starting a company
-                </label>
-              </div>
-              <div class="col-lg-offset-3 col-lg-5 col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-7 col-xs-offset-2 col-xs-7 text-center radio hvr-radial-out-2"><input type="radio" id = "learnCoding" name = "radios">
-                <label for = "learnCoding">Learn about coding</label>
-              </div>
-          </div>
-
-          </div>
-        </div> -->
-
         <div class = "section" id = learning-style>
           <div class = "container-fluid learning-style">
 
@@ -144,22 +126,22 @@
           </div>
 
           <div class="row checkbox-toolbar2">
-              <div class="col-xs-offset-1 col-xs-3 col-sm-offset-2 col-sm-4  col-md-offset-1 col-md-4 col-lg-offset-1 col-lg-4   text-center checkbox hvr-rectangle-out">
+              <div class="column half text-center checkbox hvr-rectangle-out">
                   <input type="checkbox" id = "videos">
                   <label for = "videos"><i class="fa fa-video-camera fa-5x"></i> Through Videos</label>
               </div>
-              <div class="col-xs-offset-1 col-xs-3 col-sm-offset-2 col-sm-4  col-md-offset-1 col-md-4 col-lg-offset-1 col-lg-4   text-center checkbox hvr-rectangle-out">
+              <div class="column half text-center checkbox hvr-rectangle-out">
                   <input type="checkbox" id = "gaming">
                   <label for = "gaming"><i class="fa fa-gamepad fa-5x"></i> Through Games</label>
               </div>
           </div>
 
           <div class="row checkbox-toolbar2">
-            <div class="col-xs-offset-1 col-xs-3 col-sm-offset-2 col-sm-4  col-md-offset-1 col-md-4 col-lg-offset-1 col-lg-4  text-center checkbox hvr-rectangle-out">
+            <div class="column half text-center checkbox hvr-rectangle-out">
               <input type="checkbox" id = "reading">
               <label for = "reading">
                 <i class="fa fa-book fa-5x"></i>Through Reading</label></div>
-            <div class="col-xs-offset-1 col-xs-3 col-sm-offset-2 col-sm-4 col-md-offset-1 col-md-4 col-lg-offset-1 col-lg-4  text-center checkbox hvr-rectangle-out">
+            <div class="column half text-center checkbox hvr-rectangle-out">
               <input type="checkbox" id = "friends">
               <label for = "friends">
                 <i class="fa fa-venus-double fa-5x"></i>With friends
@@ -188,14 +170,14 @@
           <div id = "image1" class = "image1 col-lg-offset-1 col-lg-9 col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-7 col-xs-offset-1 col-xs-9 row">
 
           </div>
-          <div class = "header col-lg-offset-4 col-lg-9 col-md-offset-4 col-md-9 col-sm-offset-3 col-sm-9 col-xs-offset-3 col-xs-9 row"> Your Tech Superstar is...
+          <div class = "header nine columns offset by-one text-center row"> Your Tech Superstar is...
           </div>
-          <div id="grandResults3" class = "description row col-lg-offset-3 col-lg-5 col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-7 col-xs-offset-2 col-xs-7 text-center">
+          <div id="grandResults3" class = "description column half  text-center">
             <!-- Lorem ipsum love you! -->
           </div>
           </div>
 
-          <div class="col-lg-offset-3 col-lg-5 col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-7 col-xs-offset-2 col-xs-7 social-media">
+          <div class="nine columns offset by-one social-media">
               <table align="center">
                   <tr>
                       <th><a href=# class="hvr-buzz-out"><i class="fa fa-facebook-square fa-4x" aria-hidden="true"></i></a>
@@ -205,6 +187,7 @@
                   </tr>
               </table>
           </div>
+
 
 
           <div id = "resources" class = "col-xs-offset-1 col-xs-3 col-sm-offset-2 col-sm-4  col-md-offset-1 col-md-4 col-lg-offset-1 col-lg-4 text-center row">
